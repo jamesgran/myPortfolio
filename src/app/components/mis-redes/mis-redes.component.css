@@ -1,0 +1,64 @@
+.container-about {
+  margin-top: 2em;
+
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+ul {
+
+  text-align: center;
+  padding: 0;
+
+}
+
+li {
+  list-style-type: none; 
+
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 50px;
+  margin-top: 2em;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.icon-button i {
+  font-size: 50px; /* Adjust icon size as needed */
+  color: #282B47; /* Adjust icon color as needed */
+}
+.icon-button i:hover {
+  font-size: 50px; /* Adjust icon size as needed */
+  color: #090c6c; /* Adjust icon color as needed */
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.btn button{
+  background-color: #8F0853;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: 0.3s;
+}
+.btn button:hover{
+  background-color: #502B48;
+}

@@ -1,0 +1,25 @@
+.container{
+    padding-top: 1em;
+}
+ul{
+    display: flex;
+    text-align: center;
+    padding: 0;
+    align-items: center;
+    gap: 1.5em;
+}
+ul li{
+    list-style: none;
+}
+
+
+img{
+    width: 60px;
+    height: 60px;  
+}
+.boot{
+    width: 70px;
+}
+
+
+
