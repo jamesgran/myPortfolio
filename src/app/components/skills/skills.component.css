@@ -1,5 +1,6 @@
 .container{
     padding-top: 1em;
+    color: #3E3F41;
 }
 ul{
     display: flex;
@@ -20,6 +21,9 @@ img{
 .boot{
     width: 70px;
 }
-
+figcaption{
+    
+    font-weight: 200;
+}
 
 

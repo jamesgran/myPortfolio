@@ -1,10 +1,11 @@
 .container{
     padding-top: 1em;
+    color: #3E3F41;
 }
 .contenedor{
     position: relative;
     overflow: hidden;
-    width: 23em;
+    
     
 }
 figure{
@@ -19,7 +20,10 @@ img{
     height: auto;
     transition: opacity 0.5s ease;
 }
-.overlay{
+p{
+    font-weight: 200;
+}
+ .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -35,16 +39,16 @@ img{
 }
 .overlay .boton {
     padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
+    background-color: #8F0853;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones para el botón */
-}
+    transition: background-color 0.3s ease, color 0.3s ease; 
+} 
 
 .overlay .boton:hover {
-    background-color: #333;
+    background-color: #502B48;
     color: #fff;
 }
 

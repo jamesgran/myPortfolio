@@ -1,5 +1,9 @@
 .container{
     padding-top: 1em;
+    color: #3E3F41;
+}
+p{
+    font-weight: 200;
 }
 .contenedor{
     display: relative;
@@ -35,8 +39,8 @@ img{
 }
 .overlay .boton {
     padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
+    background-color: #8F0853;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -44,7 +48,7 @@ img{
 }
 
 .overlay .boton:hover {
-    background-color: #333;
+    background-color: #502B48;
     color: #fff;
 }
 
